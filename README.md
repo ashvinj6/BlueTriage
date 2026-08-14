@@ -7,7 +7,7 @@ The app supports two engines:
 
 Both engines produce an attack/not-attack decision, severity, MITRE ATT&CK technique, plain-English summary, recommended next action, confidence, and engine identifier.
 
-## What the MVP demonstrates
+## What the Agent demonstrates
 
 ```text
 static CSV -> normalize -> enrich -> triage -> analyst queue
