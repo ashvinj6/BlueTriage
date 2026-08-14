@@ -1,6 +1,4 @@
-# SOC Triage Agent
-
-A tight, interview-ready MVP that turns static network alerts into enriched, analyst-readable triage decisions and evaluates them against held-out ground-truth labels.
+# BlueTriage: AI SOC Triage Agent
 
 The app supports two engines:
 
