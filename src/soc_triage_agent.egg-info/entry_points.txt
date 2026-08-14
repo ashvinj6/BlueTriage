@@ -1,0 +1,2 @@
+[console_scripts]
+soc-triage = soc_triage.cli:main

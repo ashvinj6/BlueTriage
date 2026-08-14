@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: soc-triage-agent
+Version: 0.1.0
+Summary: An explainable SOC alert enrichment, triage, and evaluation MVP
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas<3,>=2.1
+Requires-Dist: pydantic<3,>=2.6
+Requires-Dist: streamlit<2,>=1.35
+Provides-Extra: llm
+Requires-Dist: openai>=1.50; extra == "llm"
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"
